@@ -1,0 +1,93 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: David
+    last_name: Eduardo
+    
+    # Define yourself in 4-5 words
+    motto: Interesado en el mundo de los datos
+    
+    # Focus
+    focus: Data Science
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+  
+     
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+ 
+
+    # Contact Information
+    email: davidpasto33@gmail.com
+    
+    linkedin: https://www.linkedin.com/in/david-ordo%C3%B1ez-554b772b5/ 
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: example
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Basic
+      - idiom: Spanish
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: swimming
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Zootecnista
+      university: University of Nariño
+   
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Lead Developer
+      time: 2020 - Present
+      company: Colomioana de lacteos, Colombia
+      # optional
+      
+        Production leader in dairy processing. Experience in the agro-industrial sector, agro-industrial decision-making in business.
+
+       
+    - role: Data Science
+      time: 2026 - prensent
+
+
+ 
+
+skills:
+    toolset:
+      - name: Python 
+        level: 98%
+
+      - name: Pandas
+        level: 98%
+
+      - name: survival analysis
+        level: 98%
+
+      - name: machine learning
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
